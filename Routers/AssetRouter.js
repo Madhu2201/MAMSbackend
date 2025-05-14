@@ -1,29 +1,4 @@
-// import express from 'express'
-// const router = express.Router();
 
-
-// import { createAsset, getAllAssets, getAssetsByBase } from '../Controllers/Asset1controller.js';
-// import { createPurchase } from '../Controllers/PurchaseController.js';
-// import { createTransfer } from '../Controllers/TransferController.js';
-// import { loginUser, registerUser } from '../Controllers/UserController.js';
-// import { authenticate, authorize } from '../Middlewares/AuthMiddleware.js'
-
-// // User routes
-// router.post('/register', registerUser);
-// router.post('/login', loginUser);
-
-// // Asset routes
-// router.post('/assets', authenticate, authorize('Admin'), createAsset);
-// router.get('/assets', authenticate, getAllAssets);
-// router.get('/assets/:baseId', authenticate, getAssetsByBase);
-
-// // Purchase routes
-// router.post('/purchases', authenticate, authorize('Logistics Officer'), createPurchase);
-
-// // Transfer routes
-// router.post('/transfers', authenticate, authorize('Logistics Officer'), createTransfer);
-
-// export default router;
 import express from 'express';
 const router = express.Router();
 
